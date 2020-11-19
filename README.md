@@ -3,4 +3,7 @@
 [简书](https://www.jianshu.com/u/3600d7861beb)  
 [CSDN](https://mp.csdn.net/console/article)  
 您的每一个star和关注都是激励我坚持下去的动力😊😊。
-# Tomous_Tool
+### clone完项目，cd到当前目录下，执行pod install，然后点击Tomous_Tool.xcworkspace即可运行项目
+
+
+#### 创作不易，如果宁觉得帮到你了，一分两分也是情，一毛两毛也是爱，欢迎老板打赏。
