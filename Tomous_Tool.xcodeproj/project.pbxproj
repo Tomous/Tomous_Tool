@@ -12,11 +12,19 @@
 		D83CD5D42566756100397763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83CD5D32566756100397763 /* Assets.xcassets */; };
 		D83CD5D72566756100397763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83CD5D52566756100397763 /* LaunchScreen.storyboard */; };
 		D83CD5DA2566756100397763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD5D92566756100397763 /* main.m */; };
-		D83CD647256677B100397763 /* DCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD646256677B100397763 /* DCBaseViewController.m */; };
 		D83CD6572566886800397763 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6562566886800397763 /* UIView+Extension.m */; };
 		D83CD65B2566888600397763 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD65A2566888600397763 /* UIBarButtonItem+Extension.m */; };
 		D83CD65F2566889100397763 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD65E2566889100397763 /* UIViewController+Extension.m */; };
 		D83CD6682566896100397763 /* DCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6672566896100397763 /* DCConst.m */; };
+		D83CD675256692FC00397763 /* DCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD674256692FC00397763 /* DCBaseViewController.m */; };
+		D83CD6792566935B00397763 /* DCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6782566935B00397763 /* DCNavigationController.m */; };
+		D83CD67D256693D100397763 /* DCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD67C256693D100397763 /* DCTabBarViewController.m */; };
+		D83CD6812566942400397763 /* DCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6802566942400397763 /* DCTabBar.m */; };
+		D83CD6862566949000397763 /* DCBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6852566949000397763 /* DCBaseTableViewController.m */; };
+		D83CD68B256695C200397763 /* DCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD68A256695C200397763 /* DCMeViewController.m */; };
+		D83CD690256695E300397763 /* DCFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD68F256695E300397763 /* DCFocusViewController.m */; };
+		D83CD6952566960800397763 /* DCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6942566960800397763 /* DCNewViewController.m */; };
+		D83CD69A2566961E00397763 /* DCEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6992566961E00397763 /* DCEssenceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +37,6 @@
 		D83CD5D82566756100397763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D83CD5D92566756100397763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D83CD6432566771800397763 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		D83CD645256677B100397763 /* DCBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCBaseViewController.h; sourceTree = "<group>"; };
-		D83CD646256677B100397763 /* DCBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBaseViewController.m; sourceTree = "<group>"; };
 		D83CD6552566886800397763 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		D83CD6562566886800397763 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		D83CD6592566888600397763 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
@@ -40,6 +46,24 @@
 		D83CD661256688B800397763 /* DCFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFiles.h; sourceTree = "<group>"; };
 		D83CD6662566896100397763 /* DCConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCConst.h; sourceTree = "<group>"; };
 		D83CD6672566896100397763 /* DCConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCConst.m; sourceTree = "<group>"; };
+		D83CD673256692FC00397763 /* DCBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCBaseViewController.h; sourceTree = "<group>"; };
+		D83CD674256692FC00397763 /* DCBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBaseViewController.m; sourceTree = "<group>"; };
+		D83CD6772566935B00397763 /* DCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNavigationController.h; sourceTree = "<group>"; };
+		D83CD6782566935B00397763 /* DCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNavigationController.m; sourceTree = "<group>"; };
+		D83CD67B256693D100397763 /* DCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTabBarViewController.h; sourceTree = "<group>"; };
+		D83CD67C256693D100397763 /* DCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTabBarViewController.m; sourceTree = "<group>"; };
+		D83CD67F2566942400397763 /* DCTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTabBar.h; sourceTree = "<group>"; };
+		D83CD6802566942400397763 /* DCTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTabBar.m; sourceTree = "<group>"; };
+		D83CD6842566949000397763 /* DCBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCBaseTableViewController.h; sourceTree = "<group>"; };
+		D83CD6852566949000397763 /* DCBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBaseTableViewController.m; sourceTree = "<group>"; };
+		D83CD689256695C200397763 /* DCMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMeViewController.h; sourceTree = "<group>"; };
+		D83CD68A256695C200397763 /* DCMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMeViewController.m; sourceTree = "<group>"; };
+		D83CD68E256695E300397763 /* DCFocusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFocusViewController.h; sourceTree = "<group>"; };
+		D83CD68F256695E300397763 /* DCFocusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFocusViewController.m; sourceTree = "<group>"; };
+		D83CD6932566960800397763 /* DCNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNewViewController.h; sourceTree = "<group>"; };
+		D83CD6942566960800397763 /* DCNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNewViewController.m; sourceTree = "<group>"; };
+		D83CD6982566961E00397763 /* DCEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCEssenceViewController.h; sourceTree = "<group>"; };
+		D83CD6992566961E00397763 /* DCEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCEssenceViewController.m; sourceTree = "<group>"; };
 		DA37207387B501C5CECAAF57 /* libPods-Tomous_Tool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tomous_Tool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5FB08F89C6A2302F7E3125 /* Pods-Tomous_Tool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tomous_Tool.debug.xcconfig"; path = "Target Support Files/Pods-Tomous_Tool/Pods-Tomous_Tool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,8 +121,6 @@
 				D83CD5C72566755F00397763 /* AppDelegate.h */,
 				D83CD5C82566755F00397763 /* AppDelegate.m */,
 				D83CD5E7256676F700397763 /* Base */,
-				D83CD5E8256676F700397763 /* TabBar */,
-				D83CD5E9256676F700397763 /* Navigation */,
 				D83CD5E6256676F700397763 /* Main */,
 				D83CD5F7256676F700397763 /* Other */,
 				D83CD5F6256676F700397763 /* Files */,
@@ -115,11 +137,6 @@
 		D83CD5E5256676F700397763 /* File */ = {
 			isa = PBXGroup;
 			children = (
-				D83CD5EE256676F700397763 /* 未命名文件夹的副本6 */,
-				D83CD5F2256676F700397763 /* 未命名文件夹的副本8 */,
-				D83CD5F8256676F700397763 /* 未命名文件夹的副本21 */,
-				D83CD5FC256676F700397763 /* 未命名文件夹的副本 */,
-				D83CD600256676F700397763 /* 未命名文件夹的副本19 */,
 				D83CD604256676F700397763 /* 未命名文件夹的副本10 */,
 				D83CD608256676F700397763 /* 未命名文件夹的副本17 */,
 				D83CD60C256676F700397763 /* 未命名文件夹的副本16 */,
@@ -148,6 +165,7 @@
 		D83CD5E6256676F700397763 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D83CD5EE256676F700397763 /* 百思不得姐 */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -155,8 +173,12 @@
 		D83CD5E7256676F700397763 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D83CD645256677B100397763 /* DCBaseViewController.h */,
-				D83CD646256677B100397763 /* DCBaseViewController.m */,
+				D83CD673256692FC00397763 /* DCBaseViewController.h */,
+				D83CD674256692FC00397763 /* DCBaseViewController.m */,
+				D83CD6842566949000397763 /* DCBaseTableViewController.h */,
+				D83CD6852566949000397763 /* DCBaseTableViewController.m */,
+				D83CD5E8256676F700397763 /* TabBar */,
+				D83CD5E9256676F700397763 /* Navigation */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -164,6 +186,10 @@
 		D83CD5E8256676F700397763 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				D83CD67F2566942400397763 /* DCTabBar.h */,
+				D83CD6802566942400397763 /* DCTabBar.m */,
+				D83CD67B256693D100397763 /* DCTabBarViewController.h */,
+				D83CD67C256693D100397763 /* DCTabBarViewController.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -171,6 +197,8 @@
 		D83CD5E9256676F700397763 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				D83CD6772566935B00397763 /* DCNavigationController.h */,
+				D83CD6782566935B00397763 /* DCNavigationController.m */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -211,14 +239,18 @@
 			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
-		D83CD5EE256676F700397763 /* 未命名文件夹的副本6 */ = {
+		D83CD5EE256676F700397763 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				D83CD5F2256676F700397763 /* Essence(精华) */,
+				D83CD5F8256676F700397763 /* New(新帖) */,
+				D83CD5FC256676F700397763 /* Focus(关注) */,
+				D83CD600256676F700397763 /* Me(我) */,
 				D83CD5EF256676F700397763 /* 未命名文件夹 2 */,
 				D83CD5F0256676F700397763 /* 未命名文件夹 3 */,
 				D83CD5F1256676F700397763 /* 未命名文件夹 */,
 			);
-			path = "未命名文件夹的副本6";
+			path = "百思不得姐";
 			sourceTree = "<group>";
 		};
 		D83CD5EF256676F700397763 /* 未命名文件夹 2 */ = {
@@ -242,21 +274,23 @@
 			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
-		D83CD5F2256676F700397763 /* 未命名文件夹的副本8 */ = {
+		D83CD5F2256676F700397763 /* Essence(精华) */ = {
 			isa = PBXGroup;
 			children = (
-				D83CD5F3256676F700397763 /* 未命名文件夹 2 */,
+				D83CD5F3256676F700397763 /* Controller */,
 				D83CD5F4256676F700397763 /* 未命名文件夹 3 */,
 				D83CD5F5256676F700397763 /* 未命名文件夹 */,
 			);
-			path = "未命名文件夹的副本8";
+			path = "Essence(精华)";
 			sourceTree = "<group>";
 		};
-		D83CD5F3256676F700397763 /* 未命名文件夹 2 */ = {
+		D83CD5F3256676F700397763 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D83CD6982566961E00397763 /* DCEssenceViewController.h */,
+				D83CD6992566961E00397763 /* DCEssenceViewController.m */,
 			);
-			path = "未命名文件夹 2";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D83CD5F4256676F700397763 /* 未命名文件夹 3 */ = {
@@ -292,21 +326,23 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		D83CD5F8256676F700397763 /* 未命名文件夹的副本21 */ = {
+		D83CD5F8256676F700397763 /* New(新帖) */ = {
 			isa = PBXGroup;
 			children = (
-				D83CD5F9256676F700397763 /* 未命名文件夹 2 */,
+				D83CD5F9256676F700397763 /* Controller */,
 				D83CD5FA256676F700397763 /* 未命名文件夹 3 */,
 				D83CD5FB256676F700397763 /* 未命名文件夹 */,
 			);
-			path = "未命名文件夹的副本21";
+			path = "New(新帖)";
 			sourceTree = "<group>";
 		};
-		D83CD5F9256676F700397763 /* 未命名文件夹 2 */ = {
+		D83CD5F9256676F700397763 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D83CD6932566960800397763 /* DCNewViewController.h */,
+				D83CD6942566960800397763 /* DCNewViewController.m */,
 			);
-			path = "未命名文件夹 2";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D83CD5FA256676F700397763 /* 未命名文件夹 3 */ = {
@@ -323,21 +359,23 @@
 			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
-		D83CD5FC256676F700397763 /* 未命名文件夹的副本 */ = {
+		D83CD5FC256676F700397763 /* Focus(关注) */ = {
 			isa = PBXGroup;
 			children = (
-				D83CD5FD256676F700397763 /* 未命名文件夹 2 */,
+				D83CD5FD256676F700397763 /* Controller */,
 				D83CD5FE256676F700397763 /* 未命名文件夹 3 */,
 				D83CD5FF256676F700397763 /* 未命名文件夹 */,
 			);
-			path = "未命名文件夹的副本";
+			path = "Focus(关注)";
 			sourceTree = "<group>";
 		};
-		D83CD5FD256676F700397763 /* 未命名文件夹 2 */ = {
+		D83CD5FD256676F700397763 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D83CD68E256695E300397763 /* DCFocusViewController.h */,
+				D83CD68F256695E300397763 /* DCFocusViewController.m */,
 			);
-			path = "未命名文件夹 2";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D83CD5FE256676F700397763 /* 未命名文件夹 3 */ = {
@@ -354,21 +392,23 @@
 			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
-		D83CD600256676F700397763 /* 未命名文件夹的副本19 */ = {
+		D83CD600256676F700397763 /* Me(我) */ = {
 			isa = PBXGroup;
 			children = (
-				D83CD601256676F700397763 /* 未命名文件夹 2 */,
+				D83CD601256676F700397763 /* Controller */,
 				D83CD602256676F700397763 /* 未命名文件夹 3 */,
 				D83CD603256676F700397763 /* 未命名文件夹 */,
 			);
-			path = "未命名文件夹的副本19";
+			path = "Me(我)";
 			sourceTree = "<group>";
 		};
-		D83CD601256676F700397763 /* 未命名文件夹 2 */ = {
+		D83CD601256676F700397763 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D83CD689256695C200397763 /* DCMeViewController.h */,
+				D83CD68A256695C200397763 /* DCMeViewController.m */,
 			);
-			path = "未命名文件夹 2";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D83CD602256676F700397763 /* 未命名文件夹 3 */ = {
@@ -962,13 +1002,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83CD690256695E300397763 /* DCFocusViewController.m in Sources */,
 				D83CD65F2566889100397763 /* UIViewController+Extension.m in Sources */,
 				D83CD5C92566755F00397763 /* AppDelegate.m in Sources */,
-				D83CD647256677B100397763 /* DCBaseViewController.m in Sources */,
 				D83CD6572566886800397763 /* UIView+Extension.m in Sources */,
+				D83CD6952566960800397763 /* DCNewViewController.m in Sources */,
 				D83CD5DA2566756100397763 /* main.m in Sources */,
+				D83CD6812566942400397763 /* DCTabBar.m in Sources */,
 				D83CD6682566896100397763 /* DCConst.m in Sources */,
 				D83CD65B2566888600397763 /* UIBarButtonItem+Extension.m in Sources */,
+				D83CD67D256693D100397763 /* DCTabBarViewController.m in Sources */,
+				D83CD6792566935B00397763 /* DCNavigationController.m in Sources */,
+				D83CD6862566949000397763 /* DCBaseTableViewController.m in Sources */,
+				D83CD675256692FC00397763 /* DCBaseViewController.m in Sources */,
+				D83CD69A2566961E00397763 /* DCEssenceViewController.m in Sources */,
+				D83CD68B256695C200397763 /* DCMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

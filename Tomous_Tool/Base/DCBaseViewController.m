@@ -4,6 +4,13 @@
 //
 //  Created by Tomous on 2020/11/19.
 //
+/**
+ * 技术无价，在于奉献。
+ * GitHub地址：https://github.com/Tomous/Tomous_Tool
+ * 简书地址：https://www.jianshu.com/u/3600d7861beb
+ * CSDN：https://mp.csdn.net/console/article
+ * 群号（511860085）您的每一个star和关注都是激励我坚持下去的动力😄😄。
+*/
 
 #import "DCBaseViewController.h"
 
@@ -16,7 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 /*

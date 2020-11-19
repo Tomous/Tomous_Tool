@@ -35,6 +35,8 @@
 #define DCColorR(r) DCColor(r,r,r)
 
 #define Btn_color DCColor(74, 76, 90)
+#define DCGrayColor(v) DCColor((v), (v), (v))
+#define DCCommonBgColor DCGrayColor(206)
 
 /*
  *  处理屏幕
