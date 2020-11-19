@@ -1,0 +1,1167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09374D9E983C207B42698AD7 /* libPods-Tomous_Tool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA37207387B501C5CECAAF57 /* libPods-Tomous_Tool.a */; };
+		D83CD5C92566755F00397763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD5C82566755F00397763 /* AppDelegate.m */; };
+		D83CD5D42566756100397763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83CD5D32566756100397763 /* Assets.xcassets */; };
+		D83CD5D72566756100397763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83CD5D52566756100397763 /* LaunchScreen.storyboard */; };
+		D83CD5DA2566756100397763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD5D92566756100397763 /* main.m */; };
+		D83CD647256677B100397763 /* DCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD646256677B100397763 /* DCBaseViewController.m */; };
+		D83CD6572566886800397763 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6562566886800397763 /* UIView+Extension.m */; };
+		D83CD65B2566888600397763 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD65A2566888600397763 /* UIBarButtonItem+Extension.m */; };
+		D83CD65F2566889100397763 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD65E2566889100397763 /* UIViewController+Extension.m */; };
+		D83CD6682566896100397763 /* DCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D83CD6672566896100397763 /* DCConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		623ADCF71A206FA877898D72 /* Pods-Tomous_Tool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tomous_Tool.release.xcconfig"; path = "Target Support Files/Pods-Tomous_Tool/Pods-Tomous_Tool.release.xcconfig"; sourceTree = "<group>"; };
+		D83CD5C42566755F00397763 /* Tomous_Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomous_Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83CD5C72566755F00397763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D83CD5C82566755F00397763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D83CD5D32566756100397763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83CD5D62566756100397763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D83CD5D82566756100397763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83CD5D92566756100397763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D83CD6432566771800397763 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D83CD645256677B100397763 /* DCBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCBaseViewController.h; sourceTree = "<group>"; };
+		D83CD646256677B100397763 /* DCBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBaseViewController.m; sourceTree = "<group>"; };
+		D83CD6552566886800397763 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		D83CD6562566886800397763 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		D83CD6592566888600397763 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		D83CD65A2566888600397763 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		D83CD65D2566889100397763 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		D83CD65E2566889100397763 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		D83CD661256688B800397763 /* DCFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFiles.h; sourceTree = "<group>"; };
+		D83CD6662566896100397763 /* DCConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCConst.h; sourceTree = "<group>"; };
+		D83CD6672566896100397763 /* DCConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCConst.m; sourceTree = "<group>"; };
+		DA37207387B501C5CECAAF57 /* libPods-Tomous_Tool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tomous_Tool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5FB08F89C6A2302F7E3125 /* Pods-Tomous_Tool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tomous_Tool.debug.xcconfig"; path = "Target Support Files/Pods-Tomous_Tool/Pods-Tomous_Tool.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D83CD5C12566755F00397763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09374D9E983C207B42698AD7 /* libPods-Tomous_Tool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		529BB95A97AB1E11EEE9EEA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA37207387B501C5CECAAF57 /* libPods-Tomous_Tool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB231E0F8F4957A69ED9800E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF5FB08F89C6A2302F7E3125 /* Pods-Tomous_Tool.debug.xcconfig */,
+				623ADCF71A206FA877898D72 /* Pods-Tomous_Tool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D83CD5BB2566755F00397763 = {
+			isa = PBXGroup;
+			children = (
+				D83CD5C62566755F00397763 /* Tomous_Tool */,
+				D83CD5C52566755F00397763 /* Products */,
+				AB231E0F8F4957A69ED9800E /* Pods */,
+				529BB95A97AB1E11EEE9EEA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D83CD5C52566755F00397763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD5C42566755F00397763 /* Tomous_Tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83CD5C62566755F00397763 /* Tomous_Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD5C72566755F00397763 /* AppDelegate.h */,
+				D83CD5C82566755F00397763 /* AppDelegate.m */,
+				D83CD5E7256676F700397763 /* Base */,
+				D83CD5E8256676F700397763 /* TabBar */,
+				D83CD5E9256676F700397763 /* Navigation */,
+				D83CD5E6256676F700397763 /* Main */,
+				D83CD5F7256676F700397763 /* Other */,
+				D83CD5F6256676F700397763 /* Files */,
+				D83CD5E5256676F700397763 /* File */,
+				D83CD5D32566756100397763 /* Assets.xcassets */,
+				D83CD5D52566756100397763 /* LaunchScreen.storyboard */,
+				D83CD5D82566756100397763 /* Info.plist */,
+				D83CD5D92566756100397763 /* main.m */,
+				D83CD6432566771800397763 /* PrefixHeader.pch */,
+			);
+			path = Tomous_Tool;
+			sourceTree = "<group>";
+		};
+		D83CD5E5256676F700397763 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD5EE256676F700397763 /* 未命名文件夹的副本6 */,
+				D83CD5F2256676F700397763 /* 未命名文件夹的副本8 */,
+				D83CD5F8256676F700397763 /* 未命名文件夹的副本21 */,
+				D83CD5FC256676F700397763 /* 未命名文件夹的副本 */,
+				D83CD600256676F700397763 /* 未命名文件夹的副本19 */,
+				D83CD604256676F700397763 /* 未命名文件夹的副本10 */,
+				D83CD608256676F700397763 /* 未命名文件夹的副本17 */,
+				D83CD60C256676F700397763 /* 未命名文件夹的副本16 */,
+				D83CD610256676F700397763 /* 未命名文件夹的副本11 */,
+				D83CD614256676F700397763 /* 未命名文件夹的副本18 */,
+				D83CD618256676F700397763 /* 未命名文件夹的副本20 */,
+				D83CD61C256676F700397763 /* 未命名文件夹 2的副本2 */,
+				D83CD61D256676F700397763 /* 未命名文件夹 */,
+				D83CD61E256676F700397763 /* 未命名文件夹 3的副本2 */,
+				D83CD61F256676F700397763 /* 未命名文件夹 3的副本 */,
+				D83CD620256676F700397763 /* 未命名文件夹 2的副本 */,
+				D83CD621256676F700397763 /* 未命名文件夹的副本4 */,
+				D83CD625256676F700397763 /* 未命名文件夹的副本3 */,
+				D83CD629256676F700397763 /* 未命名文件夹的副本2 */,
+				D83CD62D256676F700397763 /* 未命名文件夹的副本5 */,
+				D83CD631256676F700397763 /* 未命名文件夹的副本22 */,
+				D83CD635256676F800397763 /* 未命名文件夹的副本14 */,
+				D83CD639256676F800397763 /* 未命名文件夹的副本13 */,
+				D83CD63D256676F800397763 /* 未命名文件夹的副本12 */,
+				D83CD641256676F800397763 /* 未命名文件夹的副本15 */,
+				D83CD642256676F800397763 /* 未命名文件夹的副本23 */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		D83CD5E6256676F700397763 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D83CD5E7256676F700397763 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD645256677B100397763 /* DCBaseViewController.h */,
+				D83CD646256677B100397763 /* DCBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D83CD5E8256676F700397763 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D83CD5E9256676F700397763 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D83CD5EA256676F700397763 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD6552566886800397763 /* UIView+Extension.h */,
+				D83CD6562566886800397763 /* UIView+Extension.m */,
+				D83CD6592566888600397763 /* UIBarButtonItem+Extension.h */,
+				D83CD65A2566888600397763 /* UIBarButtonItem+Extension.m */,
+				D83CD65D2566889100397763 /* UIViewController+Extension.h */,
+				D83CD65E2566889100397763 /* UIViewController+Extension.m */,
+				D83CD5EC256676F700397763 /* 未命名文件夹 3 */,
+				D83CD5ED256676F700397763 /* 未命名文件夹 */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D83CD5EB256676F700397763 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D83CD5EC256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD5ED256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD5EE256676F700397763 /* 未命名文件夹的副本6 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD5EF256676F700397763 /* 未命名文件夹 2 */,
+				D83CD5F0256676F700397763 /* 未命名文件夹 3 */,
+				D83CD5F1256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本6";
+			sourceTree = "<group>";
+		};
+		D83CD5EF256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD5F0256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD5F1256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD5F2256676F700397763 /* 未命名文件夹的副本8 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD5F3256676F700397763 /* 未命名文件夹 2 */,
+				D83CD5F4256676F700397763 /* 未命名文件夹 3 */,
+				D83CD5F5256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本8";
+			sourceTree = "<group>";
+		};
+		D83CD5F3256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD5F4256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD5F5256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD5F6256676F700397763 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD661256688B800397763 /* DCFiles.h */,
+				D83CD6662566896100397763 /* DCConst.h */,
+				D83CD6672566896100397763 /* DCConst.m */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		D83CD5F7256676F700397763 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD5EB256676F700397763 /* Category */,
+				D83CD5EA256676F700397763 /* Extension */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D83CD5F8256676F700397763 /* 未命名文件夹的副本21 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD5F9256676F700397763 /* 未命名文件夹 2 */,
+				D83CD5FA256676F700397763 /* 未命名文件夹 3 */,
+				D83CD5FB256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本21";
+			sourceTree = "<group>";
+		};
+		D83CD5F9256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD5FA256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD5FB256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD5FC256676F700397763 /* 未命名文件夹的副本 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD5FD256676F700397763 /* 未命名文件夹 2 */,
+				D83CD5FE256676F700397763 /* 未命名文件夹 3 */,
+				D83CD5FF256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本";
+			sourceTree = "<group>";
+		};
+		D83CD5FD256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD5FE256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD5FF256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD600256676F700397763 /* 未命名文件夹的副本19 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD601256676F700397763 /* 未命名文件夹 2 */,
+				D83CD602256676F700397763 /* 未命名文件夹 3 */,
+				D83CD603256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本19";
+			sourceTree = "<group>";
+		};
+		D83CD601256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD602256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD603256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD604256676F700397763 /* 未命名文件夹的副本10 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD605256676F700397763 /* 未命名文件夹 2 */,
+				D83CD606256676F700397763 /* 未命名文件夹 3 */,
+				D83CD607256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本10";
+			sourceTree = "<group>";
+		};
+		D83CD605256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD606256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD607256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD608256676F700397763 /* 未命名文件夹的副本17 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD609256676F700397763 /* 未命名文件夹 2 */,
+				D83CD60A256676F700397763 /* 未命名文件夹 3 */,
+				D83CD60B256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本17";
+			sourceTree = "<group>";
+		};
+		D83CD609256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD60A256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD60B256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD60C256676F700397763 /* 未命名文件夹的副本16 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD60D256676F700397763 /* 未命名文件夹 2 */,
+				D83CD60E256676F700397763 /* 未命名文件夹 3 */,
+				D83CD60F256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本16";
+			sourceTree = "<group>";
+		};
+		D83CD60D256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD60E256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD60F256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD610256676F700397763 /* 未命名文件夹的副本11 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD611256676F700397763 /* 未命名文件夹 2 */,
+				D83CD612256676F700397763 /* 未命名文件夹 3 */,
+				D83CD613256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本11";
+			sourceTree = "<group>";
+		};
+		D83CD611256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD612256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD613256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD614256676F700397763 /* 未命名文件夹的副本18 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD615256676F700397763 /* 未命名文件夹 2 */,
+				D83CD616256676F700397763 /* 未命名文件夹 3 */,
+				D83CD617256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本18";
+			sourceTree = "<group>";
+		};
+		D83CD615256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD616256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD617256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD618256676F700397763 /* 未命名文件夹的副本20 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD619256676F700397763 /* 未命名文件夹 2 */,
+				D83CD61A256676F700397763 /* 未命名文件夹 3 */,
+				D83CD61B256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本20";
+			sourceTree = "<group>";
+		};
+		D83CD619256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD61A256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD61B256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD61C256676F700397763 /* 未命名文件夹 2的副本2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2的副本2";
+			sourceTree = "<group>";
+		};
+		D83CD61D256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD61E256676F700397763 /* 未命名文件夹 3的副本2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3的副本2";
+			sourceTree = "<group>";
+		};
+		D83CD61F256676F700397763 /* 未命名文件夹 3的副本 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3的副本";
+			sourceTree = "<group>";
+		};
+		D83CD620256676F700397763 /* 未命名文件夹 2的副本 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2的副本";
+			sourceTree = "<group>";
+		};
+		D83CD621256676F700397763 /* 未命名文件夹的副本4 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD622256676F700397763 /* 未命名文件夹 2 */,
+				D83CD623256676F700397763 /* 未命名文件夹 3 */,
+				D83CD624256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本4";
+			sourceTree = "<group>";
+		};
+		D83CD622256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD623256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD624256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD625256676F700397763 /* 未命名文件夹的副本3 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD626256676F700397763 /* 未命名文件夹 2 */,
+				D83CD627256676F700397763 /* 未命名文件夹 3 */,
+				D83CD628256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本3";
+			sourceTree = "<group>";
+		};
+		D83CD626256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD627256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD628256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD629256676F700397763 /* 未命名文件夹的副本2 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD62A256676F700397763 /* 未命名文件夹 2 */,
+				D83CD62B256676F700397763 /* 未命名文件夹 3 */,
+				D83CD62C256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本2";
+			sourceTree = "<group>";
+		};
+		D83CD62A256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD62B256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD62C256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD62D256676F700397763 /* 未命名文件夹的副本5 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD62E256676F700397763 /* 未命名文件夹 2 */,
+				D83CD62F256676F700397763 /* 未命名文件夹 3 */,
+				D83CD630256676F700397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本5";
+			sourceTree = "<group>";
+		};
+		D83CD62E256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD62F256676F700397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD630256676F700397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD631256676F700397763 /* 未命名文件夹的副本22 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD632256676F700397763 /* 未命名文件夹 2 */,
+				D83CD633256676F800397763 /* 未命名文件夹 3 */,
+				D83CD634256676F800397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本22";
+			sourceTree = "<group>";
+		};
+		D83CD632256676F700397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD633256676F800397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD634256676F800397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD635256676F800397763 /* 未命名文件夹的副本14 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD636256676F800397763 /* 未命名文件夹 2 */,
+				D83CD637256676F800397763 /* 未命名文件夹 3 */,
+				D83CD638256676F800397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本14";
+			sourceTree = "<group>";
+		};
+		D83CD636256676F800397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD637256676F800397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD638256676F800397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD639256676F800397763 /* 未命名文件夹的副本13 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD63A256676F800397763 /* 未命名文件夹 2 */,
+				D83CD63B256676F800397763 /* 未命名文件夹 3 */,
+				D83CD63C256676F800397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本13";
+			sourceTree = "<group>";
+		};
+		D83CD63A256676F800397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD63B256676F800397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD63C256676F800397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD63D256676F800397763 /* 未命名文件夹的副本12 */ = {
+			isa = PBXGroup;
+			children = (
+				D83CD63E256676F800397763 /* 未命名文件夹 2 */,
+				D83CD63F256676F800397763 /* 未命名文件夹 3 */,
+				D83CD640256676F800397763 /* 未命名文件夹 */,
+			);
+			path = "未命名文件夹的副本12";
+			sourceTree = "<group>";
+		};
+		D83CD63E256676F800397763 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		D83CD63F256676F800397763 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+		D83CD640256676F800397763 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		D83CD641256676F800397763 /* 未命名文件夹的副本15 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹的副本15";
+			sourceTree = "<group>";
+		};
+		D83CD642256676F800397763 /* 未命名文件夹的副本23 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹的副本23";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83CD5C32566755F00397763 /* Tomous_Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83CD5DD2566756100397763 /* Build configuration list for PBXNativeTarget "Tomous_Tool" */;
+			buildPhases = (
+				CF8F273A7923246DC2D777BC /* [CP] Check Pods Manifest.lock */,
+				D83CD5C02566755F00397763 /* Sources */,
+				D83CD5C12566755F00397763 /* Frameworks */,
+				D83CD5C22566755F00397763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tomous_Tool;
+			productName = Tomous_Tool;
+			productReference = D83CD5C42566755F00397763 /* Tomous_Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D83CD5BC2566755F00397763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					D83CD5C32566755F00397763 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = D83CD5BF2566755F00397763 /* Build configuration list for PBXProject "Tomous_Tool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D83CD5BB2566755F00397763;
+			productRefGroup = D83CD5C52566755F00397763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83CD5C32566755F00397763 /* Tomous_Tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D83CD5C22566755F00397763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83CD5D72566756100397763 /* LaunchScreen.storyboard in Resources */,
+				D83CD5D42566756100397763 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF8F273A7923246DC2D777BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tomous_Tool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D83CD5C02566755F00397763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83CD65F2566889100397763 /* UIViewController+Extension.m in Sources */,
+				D83CD5C92566755F00397763 /* AppDelegate.m in Sources */,
+				D83CD647256677B100397763 /* DCBaseViewController.m in Sources */,
+				D83CD6572566886800397763 /* UIView+Extension.m in Sources */,
+				D83CD5DA2566756100397763 /* main.m in Sources */,
+				D83CD6682566896100397763 /* DCConst.m in Sources */,
+				D83CD65B2566888600397763 /* UIBarButtonItem+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D83CD5D52566756100397763 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83CD5D62566756100397763 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D83CD5DB2566756100397763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D83CD5DC2566756100397763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D83CD5DE2566756100397763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5FB08F89C6A2302F7E3125 /* Pods-Tomous_Tool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W4RUZJ8K2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Tomous_Tool/PrefixHeader.pch";
+				INFOPLIST_FILE = Tomous_Tool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.navasmart.Tomous-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D83CD5DF2566756100397763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623ADCF71A206FA877898D72 /* Pods-Tomous_Tool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W4RUZJ8K2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Tomous_Tool/PrefixHeader.pch";
+				INFOPLIST_FILE = Tomous_Tool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.navasmart.Tomous-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D83CD5BF2566755F00397763 /* Build configuration list for PBXProject "Tomous_Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83CD5DB2566756100397763 /* Debug */,
+				D83CD5DC2566756100397763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83CD5DD2566756100397763 /* Build configuration list for PBXNativeTarget "Tomous_Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83CD5DE2566756100397763 /* Debug */,
+				D83CD5DF2566756100397763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D83CD5BC2566755F00397763 /* Project object */;
+}

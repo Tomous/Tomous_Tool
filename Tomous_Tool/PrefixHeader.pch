@@ -1,0 +1,58 @@
+//
+//  PrefixHeader.pch
+//  Tomous_Tool
+//
+//  Created by Tomous on 2020/11/19.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/*** 如果希望某些内容能拷贝到任何源代码文件(OC\C\C++等), 那么就不要写在#ifdef __OBJC__和#endif之间 ***/
+
+/***** 在#ifdef __OBJC__和#endif之间的内容, 只会拷贝到OC源代码文件中, 不会拷贝到其他语言的源代码文件中 *****/
+#ifdef __OBJC__
+
+#import "DCFiles.h"
+
+/**  系统常用数值 */
+#import "DCConst.h"
+
+/**  Extension */
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIViewController+Extension.h"
+
+/**  工具类 */
+//#import "DCTool.h"
+//#import "DCProgressTool.h"
+//#import "DCErrorView.h"
+
+/**  网络请求工具类 */
+//#import "DCServiceTool.h"
+//#import "ServiceFile.h"
+/**  第三方 */
+//#import "Masonry.h"
+//#import "SVProgressHUD.h"
+//#import "MBProgressHUD.h"
+//#import "MJRefresh.h"
+//#import "MJExtension.h"
+//#import <SDWebImage/UIImageView+WebCache.h>
+//#import "TZImagePickerController.h"
+
+
+
+/**  登录model */
+//#import "UserInfo.h"
+
+
+
+
+
+
+
+#endif
+/***** 在#ifdef __OBJC__和#endif之间的内容, 只会拷贝到OC源代码文件中, 不会拷贝到其他语言的源代码文件中 *****/
+
+
+#endif /* PrefixHeader_pch */
