@@ -1,4 +1,14 @@
 #import <UIKit/UIKit.h>
+/** 通用的间距值 */
+CGFloat const DCMargin = 10;
+
+/** 通用的小间距值 */
+CGFloat const DCSmallMargin = DCMargin * 0.5;
+
+/** 公共的URL<百思不得姐> */
+NSString *const DCCommonURL = @"http://api.budejie.com/api/api_open.php";
+
+NSInteger GIFCacheCountLimit = 30;
 
 /** 通用的按钮高度值 */
 CGFloat const DCBtnHeight = 32;
@@ -25,9 +35,3 @@ NSString * const SetUserInfoSync = @"SetUserInfoSync";
 NSString * const Login_userName = @"Login_userName";
 NSString * const Login_phone = @"13912345670";
 
-
-/**  App Store ID */
-NSString * const AppStore_ID = @"1473889515";
-
-/**  Bugly ID */
-NSString * const Bugly_ID = @"d4d8c8c7be";

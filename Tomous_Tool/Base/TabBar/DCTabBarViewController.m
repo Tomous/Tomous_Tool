@@ -20,7 +20,7 @@
 #import "DCFocusViewController.h"
 #import "DCMeViewController.h"
 
-@interface DCTabBarViewController ()
+@interface DCTabBarViewController ()<tabBarDelegate>
 
 @end
 
@@ -81,4 +81,8 @@
     
 }
 
+#pragma tabBarDelegate ---点击tabBar中间的加号
+- (void)plusButtonDidClick {
+    
+}
 @end

@@ -27,7 +27,7 @@
 -(instancetype)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundImage = IMAGENAME(@"tabbar-light");
+//        self.backgroundImage = IMAGENAME(@"tabbar-light");
     }
     return self;
 }
@@ -35,7 +35,8 @@
 {
     [super layoutSubviews];
     CGFloat buttonW = self.width/5;
-    CGFloat buttonH = self.height;
+    //如果是刘海屏，tabBar的高度是83，需要减去下面34的高度
+    CGFloat buttonH = self.height - bottomSafeHeight;
     CGFloat buttonY = 0;
     
     int buttonIndex = 0;
@@ -51,11 +52,14 @@
         buttonIndex ++;
     }
     self.plusButton.size = CGSizeMake(buttonW, buttonH);
-    self.plusButton.center = CGPointMake(self.width * 0.5, self.height * 0.5);
+    self.plusButton.center = CGPointMake(self.width * 0.5, buttonH * 0.5);
 }
 -(void)plusButtonDidClick
 {
     DCLogFunc
+    if (_tabBarDelegate && [_tabBarDelegate respondsToSelector:@selector(plusButtonDidClick)]) {
+        [_tabBarDelegate plusButtonDidClick];
+    }
 }
 
 @end

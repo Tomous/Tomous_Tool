@@ -62,12 +62,22 @@
 #define ISiPhoneXS_MAX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
 //异性全面屏
 #define   isFullScreen    (ISiPhoneX || ISiPhoneXR || ISiPhoneXS || ISiPhoneXS_MAX)
-#define navHeight (isFullScreen?88.0f:64.0f)//导航栏高度
-#define statusHeight (isFullScreen?44.0f:20.0f)//电池条高度
-#define tabbarHeight (isFullScreen?83.0f:49.0f)//tabBar高度
+
+//判断是否是刘海屏
+#define kIsBangsScreen ({\
+    BOOL isBangsScreen = NO; \
+    if (@available(iOS 11.0, *)) { \
+    UIWindow *window = [[UIApplication sharedApplication].windows firstObject]; \
+    isBangsScreen = window.safeAreaInsets.bottom > 0; \
+    } \
+    isBangsScreen; \
+})
+#define navHeight (kIsBangsScreen?88.0f:64.0f)//导航栏高度
+#define statusHeight (kIsBangsScreen?44.0f:20.0f)//电池条高度
+#define tabbarHeight (kIsBangsScreen?83.0f:49.0f)//tabBar高度
 // 去除上下导航栏剩余中间视图高度
+#define bottomSafeHeight (kIsBangsScreen?34.0f:0.0f)
 #define viewHeight   (ScreenHeight - navHeight - tabbarHeight)
-#define bottomSafeHeight (isFullScreen?34.0f:0.0f)
 
 /*
  *  app版本号

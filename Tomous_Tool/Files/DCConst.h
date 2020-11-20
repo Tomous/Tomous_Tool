@@ -1,5 +1,16 @@
 #import <UIKit/UIKit.h>
 
+/** 通用的间距值 */
+UIKIT_EXTERN CGFloat const DCMargin;
+
+/** 通用的小间距值 */
+UIKIT_EXTERN CGFloat const DCSmallMargin;
+
+/** 公共的URL */
+UIKIT_EXTERN NSString * const DCCommonURL;
+
+UIKIT_EXTERN NSInteger GIFCacheCountLimit;
+
 /** 通用的按钮高度值 */
 UIKIT_EXTERN CGFloat const DCBtnHeight;
 
@@ -25,8 +36,4 @@ UIKIT_EXTERN NSString * const SetUserInfoSync;
 UIKIT_EXTERN NSString * const Login_userName;
 UIKIT_EXTERN NSString * const Login_phone;
 
-/**  App Store ID */
-UIKIT_EXTERN NSString * const AppStore_ID;
 
-/**  Bugly ID */
-UIKIT_EXTERN NSString * const Bugly_ID;
